@@ -120,7 +120,7 @@
       <div class="window rounded-2xl overflow-hidden">
         <div class="winbar px-4 py-2 flex justify-between items-center">
           <div class="text-[var(--choco)] font-semibold">Misi 1: Tangkap yang manis, hindari yang berbahaya 😝</div>
-          <div class="text-[var(--choco)]"><span id="g1Score">0</span>/<span id="g1Target">15</span> · ⏱ <span id="g1Time">25</span>s <span id="g1LivesWrap" class="ml-2"></span></div>
+          <div class="text-[var(--choco)]"><span id="g1Score">0</span>/<span id="g1Target">30</span> · ⏱ <span id="g1Time">40</span>s <span id="g1LivesWrap" class="ml-2"></span></div>
         </div>
         <div class="p-4">
           <div id="arena" class="arena h-[360px] rounded-2xl bg-[var(--cream)]/70 border-2 border-[var(--choco)]"></div>
@@ -267,7 +267,7 @@
       photoRound: 'assets/foto-doi-round.jpg',
       bomb: 'assets/foto-kamu-bomb.jpg'
     }
-    const game1Config = { durationMs: 25000, targetScore: 15, maxOnScreen: 8, spawnIntervalMs: [450,650], weights:{heart:.62, star:.12, photoRound:.16, bomb:.10}, lives:2, penaltyOnBomb:-1 };
+    const game1Config = { durationMs: 40000, targetScore: 30, maxOnScreen: 8, spawnIntervalMs: [450,650], weights:{heart:.62, star:.12, photoRound:.16, bomb:.10}, lives:2, penaltyOnBomb:-1 };
     const game2Config = { durationSec: 60, targetPass: 20, minPassOnTimeOut: 15 };
 
     // ====== HELPERS ======
@@ -542,4 +542,5 @@
   </script>
 </body>
 </html>
+
 
